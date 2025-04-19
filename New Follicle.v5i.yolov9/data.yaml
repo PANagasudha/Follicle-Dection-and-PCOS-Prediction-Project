@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['follicle']
+
+roboflow:
+  workspace: project-0t5sw
+  project: new-follicle
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-0t5sw/new-follicle/dataset/5
